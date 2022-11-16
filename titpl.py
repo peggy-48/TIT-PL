@@ -16,6 +16,8 @@ class bcolors:
     ENDC      = '\033[0m'
 # Here starts the Tacx Interpretor Tool (TIT)
 def evaluatefile(file):
+   oomt = 0
+   setkanaria = 0
    loop = 0
    cvar=0
    markervar=0
