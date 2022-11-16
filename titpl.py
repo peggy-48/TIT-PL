@@ -66,10 +66,11 @@ def evaluatefile(file):
             setkanaria = True # I like Kanaria
             oomt = distilled
         elif setkanaria: # Trick :D
-            plrls[oomt] = [intvar[distilled.replace(",", "")]]
+            plrls[oomt] = [varlst[varlst.index(distilled)]]
             setkanaria = False # I like Kanaria
         elif not setkanaria:
-            plrls[oomt].append(intvar[distilled.replace(",", "")])
+            plrls[oomt].append(varlst[varlst.index(distilled)])
+
        else:
             print(bcolors.WARNING+bcolors.BOLD+"tit: warning : line "+str(loop)+": comma incorrectly placed!")
             print(bcolors.WARNING+"passing line "+str(loop)+"\x00\x00"+bcolors.BOLD+": tit")
