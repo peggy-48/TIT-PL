@@ -60,7 +60,7 @@ def evaluatefile(file):
             pass
         elif distilled == "plural":
             markervar="ooohscaryilikecrppasta"
-        elif markervar == "ooohscaryilikecrppasta"
+        elif markervar == "ooohscaryilikecrppasta":
             setkanaria = True # I like Kanaria
             oomt = distilled
         elif setkanaria: # Trick :D
