@@ -77,4 +77,7 @@ def evaluatefile(file):
       else:
            print(bcolors.FAIL+bcolors.BOLD+"tit: line "+str(loop)+": no comma!")   
            sys.exit()
-evaluatefile(sys.argv[1])
+try:
+    evaluatefile(sys.argv[1])
+except:
+       print("Usage: "+sys.argv[-1]+" "+sys.argv[0]+" [file to execute]")
