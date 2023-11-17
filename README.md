@@ -11,3 +11,6 @@ TIT is in beta: Tacx is a new interpreted language (a hybrid between C and simpl
 
 As there is zero buffer, TIT is really less faster than Python!
 If someone could give me a solution to reach at least 000000000.30 or faster, i'd make an GitHub organization for TIT
+
+# Official infos
+The official repo is now under the user peggy-48's responsibility, as we have now stopped developement.
